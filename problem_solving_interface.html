@@ -1,0 +1,108 @@
+<style>
+    .full {
+        background: black;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+        color: white;
+    }
+
+    .half {
+        background: orange;
+        border-radius: 30px;
+        border-color: white;
+        border-style: solid;
+        margin: 10px;
+    }
+
+    .box {
+        background: darkcyan;
+        border-radius: 20px;
+        border-color: white;
+        border-width: 20px;
+        border-style: solid;
+        margin: 20px;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    h2 {
+        color: black;
+        margin: 0;
+        font-size: 18px;
+        flex-grow: 1;
+    }
+
+    button {
+        background: white;
+        border: white;
+        border-radius: 30px;
+        font-size: 18px;
+        color:blue;
+        padding: 10px 90px;
+        cursor: pointer;
+    }
+
+    button a {
+        color:blue ;
+        text-decoration: none;
+    }
+    button:hover
+    {
+        background: green;
+    }
+
+    
+
+
+   
+.main {
+  background: darkcyan;
+  border-radius: 30px;
+  border-color: white;
+  border-width: 20px;
+  border-style: solid;
+  margin: 20px;
+  height: 160px;
+  animation: animateBorder 5s linear infinite;
+}
+
+@keyframes animateBorder {
+  0% {
+    border-color: blue red ;
+  }
+  100% {
+    border-color: hue-rotate(90deg);
+  }
+}
+</style>
+
+<div class="full">
+    <center>
+        <h1>PROBLEM SOLVING</h1>
+    </center>
+    <div class="half">
+        <div class="box main">
+            <h2>VALIDATE AN IPV4 ADDRESS</h2>
+            <button>
+                <a href="https://www.hackerrank.com/validate-an-ipv4-address">Solve</a>
+            </button>
+        </div>
+        <div class="box">
+            <h2>MULTIPLY TWO STRINGS</h2>
+            <button>
+                <a href="https://www.hackerrank.com/validate-an-ipv4-address">Solve</a>
+            </button>
+        </div>
+        <div class="box">
+            <h2>TWO REPEATED ELEMENTS</h2>
+            <button>
+                <a href="https://www.hackerrank.com/two-repeated-elements">Solve</a>
+            </button>
+        </div>
+    </div>
+</div>
